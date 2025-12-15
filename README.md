@@ -1,0 +1,1 @@
+# GPO-Hardening-SOC-Baseline
