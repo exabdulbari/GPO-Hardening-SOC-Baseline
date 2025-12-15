@@ -54,15 +54,24 @@ The following screenshots provide evidence of the implemented hardening controls
 - **Firewall enforcement via Group Policy**
   - `gpo-firewall-all-profiles-enforced.png`  
     Windows Defender Firewall enforced for Domain, Private, and Public profiles using Group Policy
+    
 - **Microsoft Defender service protection**
   - `defender-service-startup-policy.png`
   - `defender-service-permissions-hardened.png`
+    Defender service enforced to start automatically and protected from attacker tampering
+    
 - **Windows Event Log service protected from tampering**
   - `eventlog-service-startup-policy.png`
   - `eventlog-service-permissions-hardened.png`
-- **SOC-critical audit policies enabled**
+    Event logging service enforced and protected to maintain SOC visibility
+    
+- **SOC-critical audit configuration**
   - `audit-process-creation-enabled.png`
-- **Process creation auditing with command-line logging**
-  - `command-line-logging-enabled.png`
-- **Security log size and retention configuration**
-  - `security-log-retention-policy.png`
+  - `command-line-logging-enabled.png`  
+    Process creation auditing enabled with command-line visibility
+
+- **Security log retention and protection**
+  - `security-log-retention-policy.png`  
+    Security log size increased and overwrite protection enforced
+
+    
