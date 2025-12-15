@@ -52,6 +52,7 @@ This reflects real-world attacker behavior observed in enterprise Windows enviro
 The following screenshots provide evidence of the implemented hardening controls:
 
 - **Firewall enforcement via Group Policy**
+  - (screenshots/gpo-firewall-domain-profile-enforced.png)
   - `gpo-firewall-domain-profile-enforced.png`  
     Domain firewall profile enforced using Windows Defender Firewall with Advanced Security in GPO
 - Microsoft Defender Antivirus Service permissions hardened
