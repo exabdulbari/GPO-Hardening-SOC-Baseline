@@ -57,12 +57,12 @@ The following screenshots provide evidence of the implemented hardening controls
     
 - **Microsoft Defender service protection**
   - `defender-service-startup-policy.png`
-  - `defender-service-permissions-hardened.png`
+  - `defender-service-permissions-hardened.png`  
     Defender service enforced to start automatically and protected from attacker tampering
     
 - **Windows Event Log service protected from tampering**
   - `eventlog-service-startup-policy.png`
-  - `eventlog-service-permissions-hardened.png`
+  - `eventlog-service-permissions-hardened.png`  
     Event logging service enforced and protected to maintain SOC visibility
     
 - **SOC-critical audit configuration**
