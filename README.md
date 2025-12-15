@@ -74,4 +74,12 @@ The following screenshots provide evidence of the implemented hardening controls
   - `security-log-retention-policy.png`  
     Security log size increased and overwrite protection enforced
 
+## What I Learned
+
+Through this project, I learned that attackers often focus on disabling security controls and logging services to evade detection rather than immediately deleting evidence.
+
+I gained hands-on experience using Group Policy to harden Windows systems by enforcing firewall protection, protecting critical services such as Microsoft Defender and Windows Event Log, and enabling SOC-grade audit policies.
+
+This project reinforced the importance of maintaining security visibility through proper logging, service protection, and audit configuration to support detection, investigation, and incident response.
+
     
